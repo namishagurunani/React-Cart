@@ -92,11 +92,10 @@ main {
   font-weight: 700;
 }
 .numbers{
-  border: 2px solid grey;
   background-color: rgb(198, 145, 196);
   color: white;
   font-weight: 700;
-  border-radius: 20px;
+  border-radius: 5px;
   width: 85px;
   display: flex;
   align-items: center;
@@ -117,7 +116,7 @@ main {
   border-radius: 5px 0 0 5px;
 }
 .add:hover, .remove:hover{
-  transform: scale(1.12);
+  transform: scale(0.9);
 }
 
 .btn-container {
