@@ -103,9 +103,9 @@ const Main = () => {
   // todo ------- useReducer -------------->
   const [state, dispatch] = useReducer(reducer, {
     productsData: [
-      { id: 1, name: "Shirt", price: "650", count: 0 },
-      { id: 2, name: "T-shirts", price: "450", count: 0 },
-      { id: 3, name: "Trouser", price: "800", count: 0 },
+      { id: 1, name: "Lipstic", price: "650", count: 0 },
+      { id: 2, name: "EyeShadow", price: "450", count: 0 },
+      { id: 3, name: "EyeLiner", price: "800", count: 0 },
     ],
     cartData: [],
   });
@@ -113,7 +113,7 @@ const Main = () => {
   return (
     <main>
       <div className="products">
-        <h2>Men's Fashion</h2>
+        <h2>Beauty Products</h2>
         <div className="add-item">
           <button onClick={() => dispatch({ type: "addItem" })}>
             Add Product
